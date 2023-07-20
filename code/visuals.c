@@ -299,7 +299,7 @@ void drawMenuWindow (SDL_Renderer * renderer, SDL_Rect menu_background, SDL_Rect
 
     drawText (renderer, small_font, color, text_rect, text);
 
-    sprintf(text, "Barbora Kovalska");
+    sprintf(text, "Kkobari");
     TTF_SizeText(small_font, text, &text_width, &text_height);
 
     text_rect.h = text_height;
@@ -310,10 +310,10 @@ void drawMenuWindow (SDL_Renderer * renderer, SDL_Rect menu_background, SDL_Rect
     drawText (renderer, small_font, color, text_rect, text);
     
     // Vykresleni carky nad a (nezbytne)
-    int line_x = text_rect.x + 113;
-    int line_y = text_rect.y + 6;
-    SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
-    SDL_RenderDrawLine(renderer, line_x, line_y, line_x + 3, line_y - 1);
+    // int line_x = text_rect.x + 113;
+    // int line_y = text_rect.y + 6;
+    // SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+    // SDL_RenderDrawLine(renderer, line_x, line_y, line_x + 3, line_y - 1);
 
     // Vypsani levelu & nadpisu
     sprintf(text, "Choose a level:");
