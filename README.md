@@ -14,6 +14,8 @@ The game includes:
 - Highscores stored in a very private .txt file
 - All the rainbows your heart desires
 
+![title](.readme_examples/title.gif)
+
 ## How to compile
 
 ### Linux
@@ -75,5 +77,11 @@ Make sure to check `Makefile` for more options!
 - ENTER or E: confirm selected option
 
 You can also navigate all the menus with your **mouse**!
+
+## Examples
+
+![menu](.readme_examples/menu.gif) ![paused](.readme_examples/paused.png)
+
+![gameplay](.readme_examples/gameplay.gif) ![win](.readme_examples/win.gif)
 
 > Originally made in November 2021
